@@ -1,0 +1,32 @@
+.container {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 350px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+.button,
+.big-button {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3rem;
+  border: 1px solid var(--white);
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.big-button {
+  padding: 1rem 2.5rem;
+}
+
+.button:hover,
+.big-button:hover {
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+}
