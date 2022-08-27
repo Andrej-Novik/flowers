@@ -1,3 +1,11 @@
+body.lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+}
+
 .container {
   max-width: 78rem;
   margin: 0 auto;
